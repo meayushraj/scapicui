@@ -1,0 +1,33 @@
+html, body {
+    width: 100%;
+}
+
+body {
+    background-color: #eb0e54c0;
+    overflow-x: hidden;
+}
+
+.c-w {
+    width: 45%;
+}
+
+.card {
+    background-color: #0f0736c0;
+    min-width: 100%;
+    min-height: 165px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.card--content {
+    min-width: 200px;
+    margin: 5px;
+}
+
+.card::-webkit-scrollbar {
+    display: none;
+}
+
+.imgmd {
+    width: 200px;
+}
